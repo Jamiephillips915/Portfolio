@@ -1,3 +1,20 @@
+@font-face{
+    font-family: "Lupina";
+    src: url("Lupina.otf")
+}
+
 header{
     text-align: center;
+    font-family: "Lupina";
+    font-size: 40px;
+}
+
+nav{
+    width: 100%;
+    background-color: rgb(117, 117, 117);
+}
+
+.navBarButtons{
+    padding: 10px 20px;
+    font-family: "Lupina":
 }
