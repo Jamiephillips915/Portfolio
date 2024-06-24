@@ -2,6 +2,10 @@
     font-family: "Roboto";
     src: url("Roboto-Medium.ttf")
 }
+@font-face{
+    font-family: "Roboto-Light";
+    src: url("Roboto-Light.ttf")
+}
 
 body{
     margin: 0;
@@ -64,10 +68,65 @@ a.navLinksLeft:hover{
     line-height: 1.7;
     border-style: 
 }
-.endorsementsScrollBar{
-    overflow: auto;
+
+.endorsementTable {
+    margin-left: 350px;
+    width: 1250px;
+    height: 300px;
     white-space: nowrap;
+}
+.endorsementItem {
+    background-color: whitesmoke;
+    width: 400px;
+    height: 250px;
+    border: 1px solid lightgrey;
+    margin-left: 10px;
+}
+
+.container-layout {
+    vertical-align: middle;
+    overflow-x: scroll; 
+}
+.item-layout{
     display: inline-block;
-    text-align: center;
-    font-family: "Roboto"
+    vertical-align: middle;
+    margin-right: -4px;
+}
+
+.projectLayout{
+    
+}
+
+.projectItem{
+    width: 1200px;
+    height: 200px;
+    background-color: whitesmoke;
+    border: 1px solid lightgrey;
+    margin-left: 345px;
+    margin-top: 65px
+}
+
+#reviewIcon{
+    border-radius: 50%;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+
+#reviewTitle{
+    margin-top: -55px;
+    margin-left: 100px;
+    font-family: Roboto;
+    font-size: 25px;
+}
+
+#reviewParagraph{
+    margin-top: 35px;
+    margin-left: 10px;
+    font-family: Roboto-Light;
+}
+
+#education{
+    font-family: Roboto;
 }
