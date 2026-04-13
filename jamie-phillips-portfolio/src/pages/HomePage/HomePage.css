@@ -1,0 +1,13 @@
+body{
+    background-color: #121212;
+    color: #E1E8ED;
+    margin: 0;
+}
+
+.wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
