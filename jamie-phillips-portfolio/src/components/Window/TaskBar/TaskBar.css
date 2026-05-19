@@ -1,0 +1,124 @@
+.taskBarDiv {
+    height: 5%;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #3d3a3aaf;
+    border-bottom: 1px solid white;
+}
+
+.taskBarDiv > *{
+    user-select: none;
+}
+
+.tabsDiv {
+    width: 70%;
+    display: flex;
+}
+
+.tabsDiv>div {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.tabsDiv a {
+    display: flex;
+    align-self: center;
+    height: 70%;
+    width: 80%;
+    background-color: #3b3939;
+    border-radius: 10px;
+}
+
+.activeTabDiv {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 15%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.activeTabDiv>div {
+    align-self: center;
+    border-radius: 50%;
+    border: 1.5px solid black;
+    width: 30%;
+    height: 30%;
+    background-color: rgb(72, 72, 72);
+}
+
+.tabNameDiv {
+    display: flex;
+    height: 100%;
+    width: 70%;
+}
+
+.tabNameDiv>p {
+    position: relative;
+    left: 5%;
+    align-self: center;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.tabExitDiv {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 15%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.tabExitDiv>p {
+    align-self: center;
+    align-self: center;
+    color: white;
+    font-size: 0.6rem;
+}
+
+.homeTab {}
+
+.projectsTab {}
+
+.educationTab {}
+
+.skillsTab {}
+
+.contactMeTab {}
+
+.tabButtonsDiv {
+    width: 10%;
+    border-top-right-radius: 7px;
+    display: flex;
+    margin-left: 18%;
+}
+
+.tabButtonsDiv>a {
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.exitButton {
+    border-top-right-radius: 7px;
+}
+
+.exitButton:hover {
+    background-color: #C72323;
+}
+
+.maximiseButton:hover {
+    background-color: #696666af;
+}
+
+.minimiseButton:hover {
+    background-color: #696666af;
+}

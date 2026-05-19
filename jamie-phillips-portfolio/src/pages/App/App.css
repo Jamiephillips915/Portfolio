@@ -1,9 +1,3 @@
-@media (max-width: 600px){
-    html{
-        font-size: 10px;
-    }
-}
-
 @font-face {
     font-family: "Inter";
     src: url(jamie-phillips-portfolio\src\assets\Inter-VariableFont_opsz,wght.ttf)

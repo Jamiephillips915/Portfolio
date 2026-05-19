@@ -1,19 +1,28 @@
-import InfoBox from "../../components/InfoBox/InfoBox"
 import "./HomePage.css"
+import Window from "../../components/Window/Window"
+import Background from "../../components/Background/Background"
 
 function HomePage() {
     return (
-        <div className="wrapper">
-            <InfoBox className="InfoBox">
-                <p className="title">
-                    Hello, i'm Jamie.
-                </p>
-                <p className="subTitle">
-                    I’m a 2nd year Computer Science student <br /> at the University of Edinburgh,  with <br />a specialization in Data Science.
-                </p>
-            </InfoBox>
-        </div>
+        <div>
+            <Background />
+            
+            <div style={{ display: "flex", flexDirection: "column" }}>
+                <div style={{ width: "100%", height: "10vh" }}></div>
 
+                <div style={{ display: "flex", width: "100%", height: "80vh" }}>
+                    <div style={{ width: "10%", height: "100%" }}></div>
+
+                    <Window>
+
+                    </Window>
+
+                    <div style={{ width: "10%", height: "100%" }}></div>
+                </div>
+
+                <div style={{ width: "100%", height: "10vh" }}></div>
+            </div>
+        </div>
     )
 }
 
